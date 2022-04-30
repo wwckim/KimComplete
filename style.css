@@ -1,0 +1,140 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.preload * {
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+  }
+
+.flexparent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.flexchild {
+    margin: auto;
+}
+
+.BGpurp {
+    background-color: #990099;
+    color: white;
+}
+
+.textPurp {
+    color: #990099;
+}
+
+#jumbotron {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.img-ctn {
+    display: flex;
+    height: 10%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    transform:scale(3);
+    transition: all 4.5s ease-in;
+}
+
+
+img {
+    max-height: 100%;
+}
+
+#CTA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#CTA a, 
+#CTA a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#CTA .btn {
+    background-color: #990099;
+    width: 30%;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#CTA .btn:hover {
+    transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+#CTA .btn {
+    color: white;
+}
+
+#Services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 60px 0 0 0;
+    font-size: 20px;
+}
+
+#Services >* {
+    padding: 10px;
+}
+
+/*
+#Services .heading {
+    text-decoration: underline;
+    font-size: 30px;
+}
+*/
+
+.ul {   
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ul span {
+    font-style: italic;
+    margin-left: -22.5px;
+    height: 45px;
+}
+
+footer {
+    height: 150px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-style: italic;
+}
+
+footer>* {
+    margin: 5px;
+    height: 20px;
+}
+
+footer div {
+    height: 30px;
+}
