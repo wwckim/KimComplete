@@ -109,6 +109,11 @@ img {
     height: 45px;
 }
 
+.note {
+    font-size: 80%;
+    text-decoration: italic;
+}
+
 footer {
     height: 150px;
     font-size: 10px;
