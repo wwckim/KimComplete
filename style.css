@@ -114,10 +114,19 @@ img {
 }
 
 
-.ul span {
+.ul div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
     font-style: italic;
-    margin-left: -22.5px;
+    padding: 5px;
     height: 45px;
+}
+
+
+.note {
+    font-size: 7px;
 }
 
 footer {
