@@ -1,5 +1,6 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     text-align: center;
     margin: 0 auto;
 }
@@ -12,17 +13,6 @@ html{
     -o-transition: none !important;
   }
 
-.flexparent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-}
-
-.flexchild {
-    margin: auto;
-}
 
 .BGpurp {
     background-color: #990099;
@@ -34,7 +24,7 @@ html{
 }
 
 #jumbotron {
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
